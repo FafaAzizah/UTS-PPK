@@ -1,0 +1,202 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Lucida Grande";
+  position: relative;
+}
+
+a {
+  text-decoration: none;
+}
+
+.clear {
+  clear: left;
+}
+
+.container {
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.top-wrapper {
+  padding: 180px 30px 100px 0;
+  background-size: auto ;
+  background-color: black;
+  background-repeat: no-repeat;
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+
+.top-wrapper h1 {
+  color: #b3aeb5;
+  opacity: 0.7;
+  font-size: 45px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+}
+
+.top-wrapper p {
+  opacity: 0.7;
+  margin-bottom: 3px;
+}
+
+.btn-wrapper a {
+  text-align: center;
+  margin: 20px 0;
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+  text-align: center;
+}
+.signup {
+  background-color: rgba(79, 62, 7, 0.9);
+}
+.btn-wrapper p {
+  margin: 10px 0;
+}
+.instagram {
+  background-color: #aa427b;
+  margin-right:auto ;
+}
+.twitter {
+  background-color: #55acee;
+}
+
+.btn-wrapper a:hover {
+  opacity: 0.5;
+}
+
+.fa {
+  margin-right: 5px;
+}
+
+header {
+  height: 70px;
+  width: 100%;
+  background-color: rgba(79, 62, 7, 0.9);
+  background-repeat: no-repeat;
+  position :fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.logo {
+  width: 60px;
+  margin-top: 5px;
+  margin-left: 0%;
+}
+
+.logo-text {
+  color:rgb(255, 255, 255);
+  font-size: 20px;
+  margin-left: 0%;
+  padding : 0 25px;
+}
+
+.header-left {
+  float: left;
+}
+
+
+.header-right {
+  float: right;
+  margin-right: -25px;
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+}
+
+.header-right a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.menu-icon{
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  display: none;
+}
+
+.lesson-wrapper {
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #0b0b0b;
+  text-align: center;
+}
+
+.heading {
+  padding-top: 80px;
+  padding-bottom: 50px;
+  color: #5f5d60;
+}
+
+.heading h2 {
+  font-weight: normal;
+}
+
+.lesson {
+  float: left;
+  width: 25%;
+}
+
+.lesson-icon {
+  position: relative;
+}
+
+.lesson-icon p {
+  position: absolute;
+  top: 44%;
+  width: 100%;
+  color: white;
+}
+
+.text-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 15px;
+  color: #b3aeb5;
+}
+
+.heading h3 {
+  font-weight: normal;
+}
+
+
+form h2 {
+  color: white;
+  font-style: italic;
+  margin-top: 80px;
+}
+form p {
+  color: white;
+}
+
+footer img {
+  width: 60px;
+}
+
+footer .logo-text {
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+}
+
+footer {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: rgba(79, 62, 7, 0.9);
+}
